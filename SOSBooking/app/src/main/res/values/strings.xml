@@ -15,6 +15,8 @@
     <string name="login_tos">By clicking Login. You confirm that you accept our Terms of Service and Privacy Policy</string>
     <string name="login_login">Login</string>
     <string name="login_forget">Forget Password</string>
+    <string name="login_fail_title">Incorrect Password</string>
+    <string name="login_fail_message">The password you entered is incorrect. Please try again.\n\n*** Debug ***\nusername: Staff\npassword: Staff</string>
 
     <string name="forgetpassword_title">Reset Password</string>
     <string name="forgetpassword_message">Please enter your email address. We will email you a link to reset password.</string>

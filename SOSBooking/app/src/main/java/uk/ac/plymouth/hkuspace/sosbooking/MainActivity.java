@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         setSupportActionBar(binding.toolbar);
+        binding.appBar.setOutlineProvider(null);
 
         NavHostFragment navHostFragment = (NavHostFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.nav_host_fragment_content_main);
