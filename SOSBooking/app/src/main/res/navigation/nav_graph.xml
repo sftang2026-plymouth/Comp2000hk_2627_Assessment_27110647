@@ -14,12 +14,24 @@
         <action
             android:id="@+id/action_to_ForgetPasswordFragment"
             app:destination="@id/ForgetPasswordFragment" />
+        <action
+            android:id="@+id/action_to_HomeFragment"
+            app:destination="@id/HomeFragment"
+            app:popUpTo="@id/HomeFragment"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/ForgetPasswordFragment"
         android:name="uk.ac.plymouth.hkuspace.sosbooking.ForgetPasswordFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_forgetpassword">
+
+    </fragment>
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="uk.ac.plymouth.hkuspace.sosbooking.HomeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_home">
 
     </fragment>
 </navigation>

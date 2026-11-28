@@ -22,4 +22,10 @@
     <string name="forgetpassword_message">Please enter your email address. We will email you a link to reset password.</string>
     <string name="forgetpassword_email">Email</string>
     <string name="forgetpassword_send">Send</string>
+
+    <string name="bottom_home">Dashboard</string>
+    <string name="bottom_calendar">Calendar</string>
+    <string name="bottom_my_booking">My Booking</string>
+    <string name="bottom_approval">Approval</string>
+    <string name="bottom_profile">Me</string>
 </resources>
