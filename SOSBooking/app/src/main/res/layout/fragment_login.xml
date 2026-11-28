@@ -44,6 +44,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/login_username"
+                    android:nextFocusDown="@+id/tf_password"
                     app:layout_constraintBottom_toTopOf="@+id/tf_password"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"

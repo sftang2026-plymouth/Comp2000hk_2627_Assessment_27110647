@@ -8,8 +8,32 @@
     <fragment
         android:id="@+id/DashboardFragment"
         android:name="uk.ac.plymouth.hkuspace.sosbooking.DashboardFragment"
-        android:label="@string/first_fragment_label"
+        android:label="@string/bottom_home"
         tools:layout="@layout/fragment_dashboard">
+    </fragment>
+    <fragment
+        android:id="@+id/CalendarFragment"
+        android:name="uk.ac.plymouth.hkuspace.sosbooking.DashboardFragment"
+        android:label="@string/bottom_calendar"
+        tools:layout="@layout/fragment_calendar">
+    </fragment>
+    <fragment
+        android:id="@+id/MyBookingFragment"
+        android:name="uk.ac.plymouth.hkuspace.sosbooking.DashboardFragment"
+        android:label="@string/bottom_my_booking"
+        tools:layout="@layout/fragment_my_booking">
+    </fragment>
+    <fragment
+        android:id="@+id/ApprovalFragment"
+        android:name="uk.ac.plymouth.hkuspace.sosbooking.DashboardFragment"
+        android:label="@string/bottom_approval"
+        tools:layout="@layout/fragment_approval">
+    </fragment>
+    <fragment
+        android:id="@+id/ProfileFragment"
+        android:name="uk.ac.plymouth.hkuspace.sosbooking.DashboardFragment"
+        android:label="@string/bottom_profile"
+        tools:layout="@layout/fragment_profile">
     </fragment>
 
 </navigation>

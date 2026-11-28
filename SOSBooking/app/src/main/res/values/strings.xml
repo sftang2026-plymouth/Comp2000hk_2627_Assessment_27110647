@@ -1,14 +1,8 @@
 <resources>
     <string name="app_name">SOSBooking</string>
     <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label" />
-    <string name="second_fragment_label" />
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
 
-    <string name="lorem_ipsum">Lorem_ipsum</string>
-
+    <string name="login_top_title" />
     <string name="login_logo">Logo</string>
     <string name="login_username">Username</string>
     <string name="login_password">Password</string>
@@ -18,10 +12,13 @@
     <string name="login_fail_title">Incorrect Password</string>
     <string name="login_fail_message">The password you entered is incorrect. Please try again.\n\n*** Debug ***\nusername: Staff\npassword: Staff</string>
 
+    <string name="forgetpassword_top_title" />
     <string name="forgetpassword_title">Reset Password</string>
     <string name="forgetpassword_message">Please enter your email address. We will email you a link to reset password.</string>
     <string name="forgetpassword_email">Email</string>
     <string name="forgetpassword_send">Send</string>
+
+    <string name="home_top_title" />
 
     <string name="bottom_home">Dashboard</string>
     <string name="bottom_calendar">Calendar</string>
