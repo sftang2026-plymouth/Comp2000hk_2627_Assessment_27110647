@@ -19,6 +19,8 @@ import android.view.ViewGroup;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import java.util.Objects;
+
 public class HomeFragment extends Fragment {
 
     private HomeViewModel mViewModel;
@@ -43,6 +45,9 @@ public class HomeFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_home, container, false);
+
+        checkBundle(getArguments(), v);
+        checkBundle(savedInstanceState, v);
         return v;
     }
 
@@ -88,4 +93,12 @@ public class HomeFragment extends Fragment {
         });
     }
 
+    public void checkBundle(Bundle bundle, View view) {
+        if (bundle != null && bundle.containsKey("Type")) {
+            if (Objects.equals(bundle.getString("Type"), "Employee")) {
+                BottomNavigationView bottomView = view.findViewById(R.id.bottom_navigation);
+                bottomView.getMenu().findItem(R.id.ApprovalFragment).setVisible(false);
+            }
+        }
+    }
 }

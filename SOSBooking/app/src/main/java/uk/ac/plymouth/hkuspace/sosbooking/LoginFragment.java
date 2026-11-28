@@ -52,8 +52,10 @@ public class LoginFragment extends Fragment {
                     : "";
 
             if (username.equals("Staff") && password.equals("Staff")) {
+                Bundle b = new Bundle();
+                b.putString("Type", "Employee");
                 NavHostFragment.findNavController(LoginFragment.this)
-                        .navigate(R.id.action_to_HomeFragment);
+                        .navigate(R.id.action_to_HomeFragment, b);
             } else {
                 new MaterialAlertDialogBuilder(getActivity())
                         .setTitle(R.string.login_fail_title)

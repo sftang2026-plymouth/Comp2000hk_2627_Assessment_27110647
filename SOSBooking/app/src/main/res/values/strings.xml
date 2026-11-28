@@ -25,4 +25,8 @@
     <string name="bottom_my_booking">My Booking</string>
     <string name="bottom_approval">Approval</string>
     <string name="bottom_profile">Me</string>
+
+    <string name="dashboard_suggestion">Suggestion</string>
+    <string name="dashboard_upcoming">Upcoming</string>
+    <string name="dashboard_waiting">Waiting Approval</string>
 </resources>
